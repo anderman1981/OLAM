@@ -32,7 +32,6 @@ class AlphabetSoupController extends Controller
 
             // Lógica de búsqueda de palabras en la sopa de letras
             $resultados = $this->buscarPalabras($listaPalabras, $matriz);
-            $resultadosAni = $this->buscarPalabrasAnimadas($listaPalabras, $matriz);
 
             // Retornar vista con los resultados
             return view('buscar', [
@@ -40,7 +39,6 @@ class AlphabetSoupController extends Controller
                 'listaPalabras' => $listaPalabras,
                 'palabrasEncontradas' => $resultados['encontradas'],
                 'palabrasNoEncontradas' => $resultados['noEncontradas'],
-                'resultados' => $resultadosAni['encontradas'],
             ]);
         } else {
             // Si es una carga inicial, simplemente carga la vista

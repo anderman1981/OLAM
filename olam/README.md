@@ -25,25 +25,39 @@ Prueba de codigo para Olam.
 
 Este proyecto es una prueba de código para buscar un listado de palabras en una matriz de datos, simulando una sopa de letras.
 
-En el input se deben ingresar las palabras que se quieren buscar: MANATI,PERRO,GATO,CONEJO,TIBURON,ELEFANTE,ALCON,SERPIENTE,JAGUAR,CANGURO,LOBO,MONO,NUTRIA,LEON,LORO,TORO,ORUGA
+En el input se deben ingresar las palabras que se quieren buscar: `MANATI,PERRO,GATO,CONEJO,TIBURON,ELEFANTE,ALCON,SERPIENTE,JAGUAR,CANGURO,LOBO,MONO,NUTRIA,LEON,LORO,TORO,ORUGA`
 
 En el textarea ingresar la matriz:
 
 
 `N,D,E,K,I,C,A,N,G,U,R,O,G,E`
+
 `S,X,R,Y,K,V,I,I,Q,G,W,Q,O,D`
+
 `J,A,G,U,A,R,Z,W,B,N,K,O,U,A`
+
 `M,L,E,L,E,F,A,N,T,E,H,O,G,W`
+
 `L,O,B,O,N,U,T,R,I,A,O,U,S,U`
+
 `W,W,O,S,O,G,A,T,O,V,R,T,M,O`
+
 `H,L,Z,N,C,T,Y,Z,E,O,X,A,U,R`
+
 `C,E,C,Y,T,I,B,U,R,O,N,S,R,O`
+
 `C,O,N,E,J,O,Y,U,S,M,R,S,H,T`
+
 `Y,N,I,F,E,F,P,T,E,Z,O,O,S,F`
+
 `O,S,S,E,R,P,I,E,N,T,E,F,L,G`
+
 `P,P,V,D,D,X,U,F,A,L,C,O,N,Y`
+
 `M,O,N,O,C,U,Q,W,M,A,N,A,T,I`
+
 `N,N,X,H,E,B,P,M,U,P,E,R,R,O`
+
 
 El aplicativo buscara el listado de palabras y mostrara las encontradas y la que no encuentra.
 
